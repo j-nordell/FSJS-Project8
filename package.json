@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/j-nordell/FSJS-Project8/issues"
   },
-  "homepage": "https://github.com/j-nordell/FSJS-Project8#readme"
+  "homepage": "https://github.com/j-nordell/FSJS-Project8#readme",
+  "devDependencies": {
+    "eslint": "^5.3.0"
+  }
 }
