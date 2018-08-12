@@ -1,0 +1,19 @@
+{
+  "name": "project8",
+  "version": "1.0.0",
+  "description": "project 8 Full Stack JavaScript",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-nordell/FSJS-Project8.git"
+  },
+  "author": "Jennifer Nordell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j-nordell/FSJS-Project8/issues"
+  },
+  "homepage": "https://github.com/j-nordell/FSJS-Project8#readme"
+}
