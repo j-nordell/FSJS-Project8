@@ -37,7 +37,7 @@ gulp.task('compileSass', () => {
     .pipe(gulp.dest('css'));
 });
 
-gulp.task('watchSass', () => {
+gulp.task('watchFiles', () => {
   gulp.watch('sass/**/*.scss', ['compileSass']);
 });
 
@@ -51,4 +51,8 @@ gulp.task('build', ['concatScripts', 'minifyScripts', 'compileSass'], () => {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('default', ['build']);
+gulp.task('serve', ['watchFiles']);
+
+gulp.task('default', ['clean'], () => {
+  gulp.start('build');
+});

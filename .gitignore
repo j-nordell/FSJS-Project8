@@ -3,3 +3,7 @@
 node_modules/
 .eslintrc.json
 dist/
+js/global.js
+js/global.js.map
+js/global.min.js
+css/
